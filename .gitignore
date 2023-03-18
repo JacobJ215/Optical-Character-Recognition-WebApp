@@ -130,3 +130,10 @@ dmypy.json
 
 # .DS_Store
 .DS_Store
+
+
+# .gitattributes
+.gitattributes
+
+# git-lfs
+git-lfs-3.3.0
