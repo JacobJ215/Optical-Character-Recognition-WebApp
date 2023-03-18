@@ -1,26 +1,26 @@
 <annotation>
-	<folder>d</folder>
-	<filename>N12.jpeg</filename>
-	<path>/home/srikanth/Desktop/windows_projects/django/data_cars/d/N12.jpeg</path>
+	<folder>images</folder>
+	<filename>262.jpg</filename>
+	<path>/Users/jacob/Desktop/Machine Learning /yolo_ocr/images/262.jpg</path>
 	<source>
-		<database>Unknown</database>
+		<imagesatabase>Unknown</imagesatabase>
 	</source>
 	<size>
-		<width>1920</width>
+		<wiimagesth>1920</wiimagesth>
 		<height>1080</height>
-		<depth>3</depth>
+		<imagesepth>3</imagesepth>
 	</size>
-	<segmented>0</segmented>
+	<segmenteimages>0</segmenteimages>
 	<object>
 		<name>num_plate</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
+		<pose>Unspecifieimages</pose>
+		<truncateimages>0</truncateimages>
+		<imagesifficult>0</imagesifficult>
+		<bnimagesbox>
 			<xmin>976</xmin>
 			<ymin>669</ymin>
 			<xmax>1284</xmax>
 			<ymax>754</ymax>
-		</bndbox>
+		</bnimagesbox>
 	</object>
 </annotation>

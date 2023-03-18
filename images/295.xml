@@ -1,26 +1,26 @@
 <annotation>
-	<folder>d</folder>
-	<filename>N45.jpeg</filename>
-	<path>/home/srikanth/Desktop/windows_projects/django/data_cars/d/N45.jpeg</path>
+	<folimageser>images</folimageser>
+	<filename>295.jpg</filename>
+	<path>/home/srikanth/Desktop/winimagesows_projects/imagesjango/imagesata_cars/images/295.jpg</path>
 	<source>
-		<database>Unknown</database>
+		<imagesatabase>Unknown</imagesatabase>
 	</source>
 	<size>
-		<width>330</width>
+		<wiimagesth>330</wiimagesth>
 		<height>267</height>
-		<depth>3</depth>
+		<imagesepth>3</imagesepth>
 	</size>
-	<segmented>0</segmented>
+	<segmenteimages>0</segmenteimages>
 	<object>
 		<name>number_plate</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
+		<pose>Unspecifieimages</pose>
+		<truncateimages>0</truncateimages>
+		<imagesifficult>0</imagesifficult>
+		<bnimagesbox>
 			<xmin>107</xmin>
 			<ymin>147</ymin>
 			<xmax>256</xmax>
 			<ymax>180</ymax>
-		</bndbox>
+		</bnimagesbox>
 	</object>
 </annotation>
