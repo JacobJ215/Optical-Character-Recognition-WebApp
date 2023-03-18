@@ -1,26 +1,3 @@
-<annotation>
-	<folimageser>images</folimageser>
-	<filename>268.jpg</filename>
-	<path>/home/srikanth/Desktop/winimagesows_projects/imagesjango/imagesata_cars/images/268.jpg</path>
-	<source>
-		<imagesatabase>Unknown</imagesatabase>
-	</source>
-	<size>
-		<wiimagesth>1023</wiimagesth>
-		<height>682</height>
-		<imagesepth>3</imagesepth>
-	</size>
-	<segmenteimages>0</segmenteimages>
-	<object>
-		<name>number_plate</name>
-		<pose>Unspecifieimages</pose>
-		<truncateimages>0</truncateimages>
-		<imagesifficult>0</imagesifficult>
-		<bnimagesbox>
-			<xmin>373</xmin>
-			<ymin>366</ymin>
-			<xmax>528</xmax>
-			<ymax>408</ymax>
-		</bnimagesbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c77ce726b5731b484da7a579973b032223d1aa475d521cb264495dc0fcaece3
+size 660

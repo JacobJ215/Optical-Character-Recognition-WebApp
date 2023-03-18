@@ -1,26 +1,3 @@
-<annotation>
-	<folimageser>images</folimageser>
-	<filename>498.jpg</filename>
-	<path>/Users/jacob/Desktop/Machine Learning /yolo_ocr/images/498.jpg</path>
-	<source>
-		<imagesatabase>Unknown</imagesatabase>
-	</source>
-	<size>
-		<wiimagesth>720</wiimagesth>
-		<height>486</height>
-		<imagesepth>3</imagesepth>
-	</size>
-	<segmenteimages>0</segmenteimages>
-	<object>
-		<name>number_plate</name>
-		<pose>Unspecifieimages</pose>
-		<truncateimages>0</truncateimages>
-		<imagesifficult>0</imagesifficult>
-		<bnimagesbox>
-			<xmin>288</xmin>
-			<ymin>248</ymin>
-			<xmax>429</xmax>
-			<ymax>281</ymax>
-		</bnimagesbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8d12f223ad4f95b9715c9bf787645a20634167821cdf85a25333738918f37d6
+size 635

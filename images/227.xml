@@ -1,26 +1,3 @@
-<annotation>
-	<folder>images</folder>
-	<filename>227.jpg</filename>
-	<path>/Users/jacob/Desktop/Machine Learning /yolo_ocr/images/227.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>800</width>
-		<height>572</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>number_plate</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>253</xmin>
-			<ymin>318</ymin>
-			<xmax>399</xmax>
-			<ymax>354</ymax>
-		</bndbox>
-	</object>
-</annotation>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea1775df64033ed70cb32a54351bd52fdaf6a85b57579800022910786e1a9cfd
+size 550
