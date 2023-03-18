@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>124.jpg</filename>
+	<path>/Users/jacob/Desktop/Machine Learning /yolo_ocr/images/124.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>308</width>
+		<height>163</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>54</xmin>
+			<ymin>122</ymin>
+			<xmax>117</xmax>
+			<ymax>135</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>245</xmin>
+			<ymin>99</ymin>
+			<xmax>294</xmax>
+			<ymax>112</ymax>
+		</bndbox>
+	</object>
+</annotation>
