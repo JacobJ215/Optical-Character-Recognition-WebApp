@@ -1,1 +1,51 @@
-# Optical-Character-Recognition-WebApp
+
+# Optical Character Recognition WebApp
+
+
+!['yolo_v5/YOLO_Model/val_batch0_labels.jpg'](yolo_v5/YOLO_Model/val_batch0_labels.jpg)
+
+This is a web application for detecting license plates and extracting text using Optical Character Recognition (OCR) technology. The application is built using Python, OpenCV, Tensorflow, YOLOv5, LabelImg, Pytesseract, InceptionResNetV2, and Streamlit.
+
+## Running the Web App
+The web app is hosted on Streamlit.io and can be publicly accessed. To run the web app locally, follow the steps below:
+
+1. Clone the repository
+    ```
+    git clone https://github.com/jacobj215/Optical-Character-Recognition-WebApp.git
+    ```
+2. Install the required dependencies
+    ```
+    pip install -r requirements.txt
+    ```
+3. Navigate to the root directory of the project and run 
+    ```
+    streamlit run app.py
+    ```
+
+    This will start the web application, which can be accessed by opening your web browser and navigating to http://localhost:8501.
+
+4. Upload an image and select the desired model for object detection and text extraction
+
+Image of OCR Text Extraction
+
+
+## Project Details
+
+## Dataset
+The dataset used in this project contains 462 images of cars with license plates. The images were sourced from "Brave Images", "Google Images", and "https://flickr.com/". The annotations were made using LabelImg and Pascal VOC, and the XML files were converted to a CSV in a notebook named imagenet_resnet/data_preparation.ipynb. The data found in this CSV was then converted to YOLOv5 format in a notebook named yolo_v5/
+data_preparation.ipynb.
+
+## InceptionResNetV2 Model Training
+The InceptionResNetV2 model was trained on a Mac M1 Max 32-Core GPU for 200 epochs. We created a pre-trained Inception-ResNet V2 model without the top layer and froze the pre-trained model's weights. Custom classification layers were defined to be added on top of the pre-trained model. We then created a new model that includes both the pre-trained model and the custom classification layers. The model was compiled with a mean squared error loss function and an Adam optimizer with a learning rate of 1e-4. A ModelCheckpoint callback was used to save the best model based on validation loss. The best model was saved as ./models/object_detection.h5. The model training code can be found in the notebook object_detection.ipynb. 
+
+## YOLOv5 Model Training
+The YOLOv5 model was trained using the train.py script with the data.yaml configuration file and pre-trained weights from runs/train/Model2/weights/best.pt. We trained the model for 100 epochs using a Tesla T4 GPU in Google Colab. The best model was saved in the runs/train/exp2 directory. Additionally, we exported the best model to ONNX format using the export.py script with the --weights flag pointing to the saved weights file.
+
+
+
+
+Here are some examples of the web application in action:
+
+License Plate Detection
+
+ OCR Text Extraction
