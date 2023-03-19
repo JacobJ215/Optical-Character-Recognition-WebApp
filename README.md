@@ -24,7 +24,7 @@ The web app is hosted on Streamlit.io and can be publicly accessed. To run the w
 
     This will start the web application, which can be accessed by opening your web browser and navigating to http://localhost:8501.
 
-4. Upload an image and select the desired model for object detection and text extraction
+4. Upload an image and select the desired model for object detection and text extraction. (Please note: InceptionResNetV2 Model is currently not operable)
 
 Image of OCR Text Extraction
 
