@@ -4,7 +4,7 @@
 
 !['yolo_v5/YOLO_Model/val_batch0_labels.jpg'](yolo_v5/YOLO_Model/val_batch0_labels.jpg)
 
-This is a web application for detecting license plates and extracting text using Optical Character Recognition (OCR) technology. The application is built using Python, OpenCV, Tensorflow, YOLOv5, LabelImg, Pytesseract, InceptionResNetV2, and Streamlit.
+This is a web application for detecting license plates and extracting text using Optical Character Recognition (OCR) technology. The application is built using Python, OpenCV, Tensorflow, [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5), LabelImg, Pytesseract, InceptionResNetV2, and Streamlit.
 
 ## Running the Web App
 The web app is hosted on Streamlit.io and can be publicly accessed. To run the web app locally, follow the steps below:
