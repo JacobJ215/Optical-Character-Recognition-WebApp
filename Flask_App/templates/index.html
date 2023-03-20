@@ -16,10 +16,10 @@
         </form>
     </div>
 
-    {% if upload %}
-        {% if request.form['model_name'] == 'InceptionResNetV2' %}
+    <!-- {% if upload %}
+        {% if request.form['model_name'] == 'InceptionResNetV2' %} -->
             <!-- InceptionResNetV2 -->
-            <div class="container">
+            <!-- <div class="container">
                 <br><br>
                 <table>
                     <tr>
@@ -49,18 +49,18 @@
                     </tr>
                 </table>
 
-            </div>
-        {% elif request.form['model_name'] == 'YOLOv5' %}
+            </div> -->
+        {% if request.form['model_name'] == 'YOLOv5' %}
             <!-- YOLOv5-->
             <div class="container">
                 <br><br>
                 <table>
                     <tr>
                         <td>
-                            <img class="rounded float-left img-fluid" src="/static/upload/{{ upload_image }}" alt="">
+                            <img class="rounded float-left img-fluid" src="/static/upload_yolo/{{ upload_image }}" alt="">
                         </td>
                         <td>
-                            <img class="rounded float-right img-fluid" src="/static/predict/{{ upload_image }}" alt="">
+                            <img class="rounded float-right img-fluid" src="/static/predict_yolo/{{ upload_image }}" alt="">
                         </td>
                     </tr>
 
@@ -73,7 +73,7 @@
                     </tr>
                     <tr style="border: solid black;">
                         <td>
-                            <img class="img-fluid" src="/static/roi/{{ upload_image }}" alt="">
+                            <img class="img-fluid" src="/static/roi_yolo/{{ upload_image }}" alt="">
                         </td>
                         <td style="background-color: greenyellow;">
                             <h1 class="display-8"> {{ text }}</h1>
