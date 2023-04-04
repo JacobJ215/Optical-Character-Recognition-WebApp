@@ -1,5 +1,5 @@
 
-# Optical Character Recognition WebApp
+# [Optical Character Recognition WebApp](https://github.com/JacobJ215/Optical-Character-Recognition-WebApp)
 ![](screenshots/streamlit-ocr.png)
 
 
