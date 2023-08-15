@@ -1,3 +1,5 @@
+Please see updated project version using YOLO-NAS: [YOLO-NAS-OCR-WebApp](https://jacobj215.github.io/YOLO-NAS-OCR-WebApp/)
+
 
 # [Optical Character Recognition WebApp](https://github.com/JacobJ215/Optical-Character-Recognition-WebApp)
 ![](screenshots/streamlit-ocr.png)
